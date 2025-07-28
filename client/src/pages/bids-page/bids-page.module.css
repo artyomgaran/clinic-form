@@ -1,0 +1,26 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.bidsTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.bidsTable thead {
+  background-color: #f0f0f0;
+}
+
+.bidsTable th,
+.bidsTable td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.bidsTable td {
+  vertical-align: top;
+}
